@@ -73,7 +73,7 @@ build_install() {
 copy_release_binaries() {
     local ABI="$1"
     mkdir -p "ffmpeg/$ABI/bin"
-    for name in avutil-57 avcodec-59 avformat-59 swresample-4
+    for name in avutil-58 avcodec-60 avformat-60 swresample-4
     do
         cp "../build-$ABI/install/bin/$name.dll" "ffmpeg/$ABI/bin/"
     done
