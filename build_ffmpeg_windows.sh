@@ -35,6 +35,7 @@ configure_ffmpeg() {
         --enable-decoder=h264 \
         --enable-decoder=hevc \
         --enable-decoder=av1 \
+        --enable-decoder=pcm_s16le \
         --enable-decoder=opus \
         --enable-decoder=aac \
         --enable-decoder=png \
