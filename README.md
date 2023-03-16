@@ -3,7 +3,7 @@ This project hosts a script to generate a minimal FFmpeg Windows build for
 
 [scrcpy]: https://github.com/Genymobile/scrcpy
 
-The script is intended to be executred on Linux (typically Debian), with
+The script is intended to be executed on Linux (typically Debian), with
 `mingw-w64` installed.
 
 The packages `libz-mingw-w64` and `libz-mingw-w64-dev` (necessary for zlib) must
