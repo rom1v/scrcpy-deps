@@ -45,6 +45,7 @@ configure_ffmpeg() {
         --enable-zlib \
         --enable-muxer=matroska \
         --enable-muxer=mp4 \
+        --enable-muxer=opus \
         --disable-vulkan
 }
 
