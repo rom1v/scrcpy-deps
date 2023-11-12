@@ -39,6 +39,7 @@ configure_ffmpeg() {
         --enable-decoder=pcm_s16le \
         --enable-decoder=opus \
         --enable-decoder=aac \
+        --enable-decoder=flac \
         --enable-decoder=png \
         --enable-protocol=file \
         --enable-demuxer=image2 \
@@ -47,6 +48,7 @@ configure_ffmpeg() {
         --enable-muxer=matroska \
         --enable-muxer=mp4 \
         --enable-muxer=opus \
+        --enable-muxer=flac \
         --disable-vulkan
 }
 
