@@ -49,6 +49,7 @@ configure_ffmpeg() {
         --enable-muxer=mp4 \
         --enable-muxer=opus \
         --enable-muxer=flac \
+        --enable-muxer=wav \
         --disable-vulkan
 }
 
