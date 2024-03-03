@@ -1,3 +1,6 @@
+**Since scrcpy 2.4, this separate project `scrcpy-deps` is not used anymore. See
+[scrcpy/#4713](https://github.com/Genymobile/scrcpy/pull/4713).**
+
 This project hosts a script to generate a minimal FFmpeg Windows build for
 [scrcpy].
 
